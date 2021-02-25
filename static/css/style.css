@@ -1,0 +1,82 @@
+
+/* ---- nav bar for all pages ---- */
+/* format header */
+.header {
+    padding: .5em;
+    /* background-image: url("../img/news.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+/* center header and add padding */
+.header h1 {
+    text-align: center;
+    padding-top: 35px;
+    font-family: "Times New Roman";
+    font-size: 80px;
+    color: maroon;
+}
+
+.header h2 {
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 55px;
+    color: maroon;
+}
+
+
+/* define navigation block */
+.navigation {
+    padding-top: 35px;
+    display: block;
+    height: 150px;
+}
+/* remove bullets, margin, padding, and text align */
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: 5px;
+}
+
+/* display list items horizontally */
+.navigation li {
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+}
+
+/* define block styling for the links */
+.navigation a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Times New Roman";
+    font-size: 27px;
+    font-weight: bold;
+    color: maroon;
+}
+
+/* hover effect color */
+nav a:hover {
+    color: maroon;
+}
+
+/* bar effect over each link */
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: maroon;
+    position: absolute;
+    transition: all ease-in-out 300ms;
+}
+
+/* bar effect without hover */
+nav a:hover::before {
+    width: 100%;
+}
