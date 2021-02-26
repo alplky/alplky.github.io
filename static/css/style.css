@@ -65,7 +65,7 @@ nav a:hover::before {
     position: relative;
     padding: .5em;
     height: 650px;
-    padding-top: 60px;
+    padding-top: 40px;
     margin: 0;
     background: black;
     background-image: url("../images/anton-darius-unsplash.jpg");
