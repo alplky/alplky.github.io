@@ -1,9 +1,10 @@
-/* ---- nav bar for all pages ---- */
+/* ----- nav bar for all pages ----- */
 /* define navbar block */
 .navbar {
     position: sticky;
     top: 0;
     display: flex;
+    z-index: 1;
     justify-content: space-around;
     background: white;
     padding: 2em 0;
@@ -59,12 +60,12 @@ nav a:hover::before {
     width: 100%;
 }
 
-/* header for all pages - texts varies depending on page */
+/* ----- header for all pages - texts varies depending on page ----- */
 /* format header */
 .header {
     position: relative;
     padding: .5em;
-    height: 650px;
+    height: 675px;
     padding-top: 40px;
     margin: 0;
     background: black;
@@ -94,13 +95,13 @@ nav a:hover::before {
     animation-delay: 1.2s; */
 }
 
-/* formatting for home page content */
+/* ----- formatting for home page content ----- */
 /* body {
     background-color: #7ba683;
 } */
 
 .skillset-content {
-    width: 75%;
+    width: 65%;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -112,21 +113,12 @@ nav a:hover::before {
     font-size: 45px;
 }
 
-section {
-    display: grid;
-    grid: auto / 200px 1fr;
-    grid-gap: 0 10em;
-
-    p {
-        grid-column: 2/2;
-    }
-}
-
 .section-title {
-    grid-column: 1 / 2;
-  text-align: right;
-  align-self: start;
-  top: 1em;
+    text-align: left;
+    align-self: start;
+    top: 4em;
+    position: sticky;
+    top: 4em;
 }
 
 
