@@ -83,7 +83,7 @@ nav a:hover::before {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100px;
     color: white;
-    /* animation: title 1.2s forwards linear; */
+    animation: title 2.5s forwards linear;
 }
 
 .header h2 {
@@ -91,8 +91,7 @@ nav a:hover::before {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
     color: white;
-    /* animation: subtitle 1.2s forwards linear;
-    animation-delay: 1.2s; */
+    animation: subtitle 2.5s forwards linear;
 }
 
 /* ----- formatting for home page content ----- */
@@ -134,7 +133,27 @@ nav a:hover::before {
     top: 4em;
 }
 
-
+/* keyframe animations used to animate the title */
+@keyframes title {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      font-size: 7.5rem;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes subtitle {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
 
 
 
