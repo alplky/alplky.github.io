@@ -1,3 +1,11 @@
+/* ----- custom font https://fonts.google.com/specimen/Roboto?preview.text_type=custom ----- */
+/* @font-face{
+    font-family: "";
+    src: url("../fonts/) format("");
+    font-style: normal;
+    font-weight: bold;
+} */
+
 /* ----- nav bar for all pages ----- */
 /* define navbar block */
 .navbar {
