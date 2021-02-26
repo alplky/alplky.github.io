@@ -43,7 +43,7 @@ nav a:hover {
     color: black;
 }
 
-/* bar effect over each link */
+/* bar effect under each link */
 nav a::before {
     content: '';
     display: block;
@@ -131,7 +131,6 @@ nav a:hover::before {
 
 /* ----- formatting for the footer on each page ----- */
 .footer {
-    /* padding: .5em; */
     margin: 0;
     height: 100px;
     background: black;
@@ -146,6 +145,17 @@ nav a:hover::before {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/* hover effect color */
+footer a:hover {
+    opacity:1.0;
+    color: rgb(83, 134, 90)
 }
 
 /* keyframe animations used to animate the title */
