@@ -1,39 +1,16 @@
-
 /* ---- nav bar for all pages ---- */
-/* format header */
-.header {
-    padding: .5em;
-    /* background-image: url("../img/news.jpg"); */
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
+/* define navbar block */
+.navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    padding: 2em 0;
 }
 
-/* center header and add padding */
-.header h1 {
-    text-align: center;
-    padding-top: 35px;
-    font-family: "Times New Roman";
-    font-size: 80px;
-    color: maroon;
-}
-
-.header h2 {
-    text-align: center;
-    font-family: "Times New Roman";
-    font-size: 55px;
-    color: maroon;
-}
-
-
-/* define navigation block */
-.navigation {
-    padding-top: 35px;
-    display: block;
-    height: 150px;
-}
 /* remove bullets, margin, padding, and text align */
-.navigation ul {
+.navbar ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -42,27 +19,27 @@
 }
 
 /* display list items horizontally */
-.navigation li {
+.navbar li {
     display: inline-block;
     margin-left: 30px;
     position: relative;
 }
 
 /* define block styling for the links */
-.navigation a {
+.navbar a {
     display: inline-block;
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
-    font-family: "Times New Roman";
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 27px;
     font-weight: bold;
-    color: maroon;
+    color: black;
 }
 
 /* hover effect color */
 nav a:hover {
-    color: maroon;
+    color: black;
 }
 
 /* bar effect over each link */
@@ -71,7 +48,8 @@ nav a::before {
     display: block;
     height: 5px;
     width: 0%;
-    background-color: maroon;
+    top: 35px;
+    background-color: black;
     position: absolute;
     transition: all ease-in-out 300ms;
 }
@@ -80,3 +58,51 @@ nav a::before {
 nav a:hover::before {
     width: 100%;
 }
+
+/* header for all pages - texts varies depending on page */
+/* format header */
+.header {
+    position: relative;
+    padding: .5em;
+    height: 650px;
+    padding-top: 60px;
+    margin: 0;
+    background: black;
+    background-image: url("../images/anton-darius-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* center header and add padding */
+.header h1 {
+    text-align: center;
+    padding-top: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    color: white;
+    /* animation: title 1.2s forwards linear; */
+}
+
+.header h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: white;
+    /* animation: subtitle 1.2s forwards linear;
+    animation-delay: 1.2s; */
+}
+
+/* formatting for home page content */
+.skillset-content h1 {
+    text-align: center;
+    padding-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    color: black;
+}
+
+
+  
+  
