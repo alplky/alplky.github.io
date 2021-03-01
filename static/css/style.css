@@ -94,41 +94,6 @@ nav a:hover::before {
     animation: subtitle 2.5s forwards linear;
 }
 
-/* ----- formatting for home page content ----- */
-.skillset-content {
-    width: 60%;
-    margin: 0 auto;
-    position: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-}
-
-.skillset-content h1 {
-    text-align: left;
-    font-size: 45px;
-}
-
-.skillset-content ul {
-    list-style: none;
-}
-
-.skill-sections {
-    margin-bottom: 30px;
-} 
-
-.skillset-content li {
-    margin-bottom: 15px;
-    font-size: 20px;
-}
-
-.section-title {
-    text-align: left;
-    align-self: start;
-    top: 4em;
-    position: sticky;
-    top: 4em;
-}
-
 /* ----- formatting for the footer on each page ----- */
 .footer {
     margin: 0;
@@ -180,8 +145,79 @@ footer a:hover {
     }
   }
 
+/* ----- formatting for home page content ----- */
+.skillset-content {
+    width: 60%;
+    margin: 0 auto;
+    position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
 
+.skillset-content h1 {
+    text-align: left;
+    font-size: 45px;
+}
 
+.skillset-content ul {
+    list-style: none;
+}
+
+.skill-sections {
+    margin-bottom: 30px;
+} 
+
+.skillset-content li {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.section-title {
+    text-align: left;
+    align-self: start;
+    top: 4em;
+    position: sticky;
+    top: 4em;
+}
+
+/* ----- formatting for about page content ----- */
+.about-section {
+    width: 60%;
+    margin: 0 auto;
+    position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+/* .contact-info {
+    margin-top: 45px;
+} */
+
+.about-section h1 {
+    text-align: left;
+    font-size: 45px;
+}
+
+.about-section ul {
+    list-style: none;
+}
+
+.about-section li {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+/* .about-section a {
+    text-decoration: none;
+} */
+
+/* .contact-info {
+    text-align: left;
+    align-self: start;
+    top: 4em;
+    position: sticky;
+    top: 4em;
+} */
 
   
   
