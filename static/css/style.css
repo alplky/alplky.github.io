@@ -181,7 +181,7 @@ footer a:hover {
 }
 
 /* ----- formatting for about page content ----- */
-.about-section {
+.about-content {
     width: 60%;
     margin: 0 auto;
     position: center;
@@ -193,31 +193,38 @@ footer a:hover {
     margin-top: 45px;
 } */
 
-.about-section h1 {
+.about-content h1 {
     text-align: left;
     font-size: 45px;
 }
 
-.about-section ul {
+.about-content ul {
     list-style: none;
 }
 
-.about-section li {
+.about-content li {
     margin-top: 25px;
     font-size: 20px;
 }
 
-/* .about-section a {
+.contact-info a {
     text-decoration: none;
-} */
+    color: black;
+}
 
-/* .contact-info {
+/* hover effect color */
+.contact-info a:hover {
+    opacity:1.0;
+    color: rgb(66, 110, 72)
+}
+
+.contact-info {
     text-align: left;
     align-self: start;
-    top: 4em;
+    top: 6em;
     position: sticky;
-    top: 4em;
-} */
+    top: 6em;
+}
 
   
   
