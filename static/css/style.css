@@ -295,4 +295,45 @@ footer a:hover {
 .slider .images #img4:checked ~ .slide4 {
     margin-left: -300%;
 }
+
+/* .slider .images #img5:checked ~ .slide5 {
+    margin-left: -400%;
+}
+
+.slider .images #img6:checked ~ .slide6 {
+    margin-left: -500%;
+}
+
+.slider .images #img7:checked ~ .slide7 {
+    margin-left: -600%;
+}
+
+.slider .images #img8:checked ~ .slide8 {
+    margin-left: -700%;
+}
+.slider .images #img9:checked ~ .slide9 {
+    margin-left: -800%;
+}
+
+.slider .images #img10:checked ~ .slide10 {
+    margin-left: -900%;
+}
+
+.slider .images #img11:checked ~ .slide11 {
+    margin-left: -1000%;
+} */
+/* 
+.slider .images #img12:checked ~ .slide12 {
+    margin-left: -400%;
+} */
+
+/* .slider .images #img13:checked ~ .slide13 {
+    margin-left: -400;
+}
+
+.slider .images #img14:checked ~ .slide14 {
+    margin-left: -500%;
+} */
+
+
 /* ---- end of viz formatting ---- */
