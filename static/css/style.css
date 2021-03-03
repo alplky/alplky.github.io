@@ -227,57 +227,68 @@ footer a:hover {
 }
 
 /* ----- formatting for visualization page content ----- */
-/* .slide-container {
-    width: 800px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    text-align: center;
-}
-  
-.image-container {
-    width: 8000px;
-    height: 1200px;
-    position: relative;
-    transition: left 2s;
-    -webkit-transition: left 2s;
-    -moz-transition: left 2s;
-    -o-transition: left 2s;
-}   
-
-.slider-image {
-    float: left;
-    margin: 0;
-    padding: 0;
-}
-
-.button-container {
-    top: 20px;
-    position: relative;
-}
-
-.slider-button {
-    display: inline-block;
-    height: 10px;
-    width: 10px;
-    border-radius: 5px;
+.image-section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
 }
 
-/* inividual image targeting for slideshow */
-#slider-image-1:target ~ .image-container {
-    left: 0px;
+.slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
 }
 
-#slider-image-2:target ~ .image-container {
-    left: -800px;
+.slider .images {
+    width: 100%;
+    display: flex;
 }
 
-#slider-image-3:target ~ .image-container {
-    left: -1600px;
+.dots {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
 }
 
-#slider-image-4:target ~ .image-container {
-    left: -2400px;
-} */
+.dots label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin: 5px;
+    transition: all 0.25s ease;
+    cursor: pointer;
+}
+
+.dots label:hover {
+    background-color: black;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider .images img {
+    height: 750px;
+    width: 100%;
+    transition: all 0.25s ease;
+}
+
+.slider .images #img1:checked ~ .slide1 {
+    margin-left: 0;
+}
+
+.slider .images #img2:checked ~ .slide2 {
+    margin-left: -100%;
+}
+
+.slider .images #img3:checked ~ .slide3 {
+    margin-left: -200%;
+}
+
+.slider .images #img4:checked ~ .slide4 {
+    margin-left: -300%;
+}
