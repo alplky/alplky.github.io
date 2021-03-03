@@ -227,9 +227,11 @@ footer a:hover {
 }
 
 /* ----- formatting for visualization page content ----- */
+/* ---- all formatting for slideshow of viz images ---- */
 .image-section {
     height: 100%;
     width: 100%;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -250,6 +252,7 @@ footer a:hover {
 .dots {
     display: flex;
     margin: 5px;
+    padding-top: 15px;
     justify-content: center;
 }
 
@@ -292,3 +295,4 @@ footer a:hover {
 .slider .images #img4:checked ~ .slide4 {
     margin-left: -300%;
 }
+/* ---- end of viz formatting ---- */
