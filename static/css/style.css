@@ -159,6 +159,10 @@ footer a:hover {
     font-size: 45px;
 }
 
+.skillset-content p {
+    text-align: justify;
+}
+
 .skillset-content ul {
     list-style: none;
 }
@@ -189,10 +193,6 @@ footer a:hover {
     color: black;
 }
 
-/* .contact-info {
-    margin-top: 45px;
-} */
-
 .about-content h1 {
     text-align: left;
     font-size: 45px;
@@ -200,16 +200,22 @@ footer a:hover {
 
 .about-content ul {
     list-style: none;
+    text-align: left;
 }
 
 .about-content li {
     margin-top: 25px;
-    font-size: 20px;
+    font-size: 18px;
+    text-align: left;
 }
 
 .contact-info a {
     text-decoration: none;
     color: black;
+}
+
+.biography {
+    padding-top: 10px;
 }
 
 /* hover effect color */
