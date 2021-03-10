@@ -32,7 +32,7 @@
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
     font-size: 27px;
     font-weight: bold;
     color: black;
@@ -80,15 +80,15 @@ nav a:hover::before {
 .header h1 {
     text-align: center;
     padding-top: 180px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100px;
+    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 200px;
     color: white;
     animation: title 1.5s forwards linear;
 }
 
 .header h2 {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
     font-size: 60px;
     color: white;
     animation: subtitle 1.5s forwards linear;
@@ -108,7 +108,7 @@ nav a:hover::before {
 
 .footer h5 {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
     color: white;
 }
 
@@ -150,7 +150,7 @@ footer a:hover {
     width: 60%;
     margin: 0 auto;
     position: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
     color: black;
 }
 
@@ -185,7 +185,7 @@ footer a:hover {
     width: 60%;
     margin: 0 auto;
     position: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
     color: black;
 }
 
